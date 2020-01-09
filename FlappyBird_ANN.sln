@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FlappyPyBird2", "FlappyPyBird2.pyproj", "{BF40F98D-789B-464B-A7F0-BD574A7E8AAD}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FlapPyBird2", "FlapPyBird2.pyproj", "{BF40F98D-789B-464B-A7F0-BD574A7E8AAD}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FlappyBird_ANN", "FlappyBird_ANN.pyproj", "{584838FF-BFC2-4950-9A25-B6A12122E399}"
 EndProject
