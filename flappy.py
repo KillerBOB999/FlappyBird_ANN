@@ -5,6 +5,7 @@ import sys
 import pygame
 from pygame.locals import *
 
+import FlappyBird_ANN as FB_ANN
 
 FPS = 30
 SCREENWIDTH  = 288
@@ -239,6 +240,9 @@ def mainGame(movementInfo):
         # check for crash here
         crashTest = checkCrash({'x': playerx, 'y': playery, 'index': playerIndex},
                                upperPipes, lowerPipes)
+        
+        FB_ANN.main(playerx, playery, lowerPipes[0])
+
         if crashTest[0]:
             return {
                 'y': playery,

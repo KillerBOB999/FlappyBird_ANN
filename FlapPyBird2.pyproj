@@ -5,8 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{bf40f98d-789b-464b-a7f0-bd574a7e8aad}</ProjectGuid>
     <ProjectHome />
-    <StartupFile />
-    <SearchPath />
+    <StartupFile>flappy.py</StartupFile>
+    <SearchPath>..\FlappyBird_ANN</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
