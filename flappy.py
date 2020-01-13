@@ -241,7 +241,9 @@ def mainGame(movementInfo):
         crashTest = checkCrash({'x': playerx, 'y': playery, 'index': playerIndex},
                                upperPipes, lowerPipes)
         
-        FB_ANN.main(playerx, playery, lowerPipes[0])
+        # BEGIN code added by Anthony Harris
+        FB_ANN.main(playerx, playery, lowerPipes, crashTest[0])
+        # END code added by Anthony Harris
 
         if crashTest[0]:
             return {
